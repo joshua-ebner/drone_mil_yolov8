@@ -1,0 +1,10 @@
+# Ignore backup / raw data artifacts
+1_data/zz_original-data-files/
+
+# Ignore system and cache junk
+*.cache
+.DS_Store
+
+# Ignore Python build artifacts
+__pycache__/
+*.pyc

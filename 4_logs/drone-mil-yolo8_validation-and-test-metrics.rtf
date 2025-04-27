@@ -1,0 +1,43 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2761
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fmodern\fcharset0 Courier-Bold;\f1\fmodern\fcharset0 Courier;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red64\green11\blue217;}
+{\*\expandedcolortbl;;\csgray\c0;\cssrgb\c32309\c18666\c88229;}
+\margl1440\margr1440\vieww26100\viewh8400\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\b\fs30 \cf2 \CocoaLigature0 VALIDATION
+\f1\b0 \
+Optimizer stripped from runs/detect/drone-yolov8n/weights/last.pt, 6.2MB\
+Optimizer stripped from runs/detect/drone-yolov8n/weights/best.pt, 6.2MB\
+\
+Validating runs/detect/drone-yolov8n/weights/best.pt...\
+Ultralytics 8.3.115 \uc0\u55357 \u56960  Python-3.12.6 torch-2.6.0+cu126 CUDA:0 (Tesla T4, 14914MiB)\
+Model summary (fused): 72 layers, 3,005,843 parameters, 0 gradients, 8.1 GFLOPs\
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|\uc0\u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 | 43/43 [00:08<00:00,  5.35it/s]\
+                   all       1345       1473      0.978      0.961      0.984      0.719\
+Speed: 0.3ms preprocess, 2.0ms inference, 0.0ms loss, 1.0ms postprocess per image\
+Results saved to 
+\f0\b runs/detect/drone-yolov8n\
+\
+TEST\
+
+\f1\b0 Ultralytics 8.3.115 \uc0\u55357 \u56960  Python-3.12.6 torch-2.6.0+cu126 CUDA:0 (Tesla T4, 14914MiB)\
+Model summary (fused): 72 layers, 3,005,843 parameters, 0 gradients, 8.1 GFLOPs\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\b \cf3 val: 
+\f1\b0 \cf2 Fast image access \uc0\u9989  (ping: 0.0\'b10.0 ms, read: 1119.8\'b1459.2 MB/s, size: 29.6 KB)\
+
+\f0\b \cf3 val: 
+\f1\b0 \cf2 Scanning /home/ubuntu/drone_mil_yolov8/1_data/test/labels... 678 images, 0 backgrounds, 0 corrupt: 100%|\uc0\u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 | 678/678 [00:00<00:00, 1842.77it\
+
+\f0\b \cf3 val: 
+\f1\b0 \cf2 New cache created: /home/ubuntu/drone_mil_yolov8/1_data/test/labels.cache\
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|\uc0\u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 | 43/43 [00:05<00:00,  7.57it/s]\
+                   all        678        720      0.962      0.961      0.979      0.722\
+Speed: 0.6ms preprocess, 3.5ms inference, 0.0ms loss, 1.2ms postprocess per image\
+Results saved to 
+\f0\b runs/detect/val
+\f1\b0 \
+\uc0\u55357 \u56481  Learn more at https://docs.ultralytics.com/modes/val\
+}
